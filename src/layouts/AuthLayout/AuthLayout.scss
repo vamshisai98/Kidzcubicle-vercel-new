@@ -1,0 +1,40 @@
+@import '../../theme/KidzCubicleTheme/Colors.scss';
+
+.AuthLayout {
+  background-color: $appBackgroundColor;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  .AuthLayout__Header {
+    flex: 1;
+  }
+  .Footer {
+    margin-top: auto;
+  }
+}
+
+.AuthLayout--container {
+  border-radius: 0.5rem;
+  background-color: $appBackgroundColor;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #b1b1b1;
+
+  @media (max-width: 768px) {
+    border: none; // Remove border for mobile layout
+    padding: 0;
+  }
+}
+
+.AuthLayout__content {
+  justify-content: center;
+  align-items: center;
+}
+
+.AuthLayout__logo.MuiGrid-item {
+  margin-left: -1.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}

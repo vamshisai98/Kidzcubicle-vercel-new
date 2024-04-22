@@ -1,0 +1,23 @@
+.CustomTabs__tabs{
+    margin-top: 10rem ;
+    box-shadow: 0px 1px 4px 0px #00000029;
+    border-radius: 360px;
+    @media (max-width: 768px) {
+        margin-top: 2rem ;
+      }
+
+      @media (max-width: 1068px) {
+        margin-top: 2rem ;
+      }
+}
+
+.CustomTabs__tabs button{
+    padding: 0 20px !important;
+    @media (max-width: 768px) {
+        padding: 0 !important;
+      }
+
+      @media (max-width: 1068px) {
+        padding: 0 !important;
+      }
+}

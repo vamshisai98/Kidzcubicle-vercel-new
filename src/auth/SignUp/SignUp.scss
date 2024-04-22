@@ -1,0 +1,49 @@
+@import "../../theme/KidzCubicleTheme/Colors.scss";
+
+.SignUp__back-to-btn {
+  color: $black !important;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 0.875rem !important;
+  text-align: center;
+  margin-top: 1.5rem !important;
+}
+
+.SignUp__link-to-btn {
+  cursor: pointer;
+  font-size: 0.875rem !important;
+  text-align: center;
+  margin-top: 0.5rem;
+  text-transform: none !important;
+}
+
+.SignUp--form-container.MuiGrid-container {
+  display: flex;
+  align-items: center;
+}
+
+.SignUp__form.MuiGrid-item {
+  margin-top: 1rem;
+}
+
+.SignUp__forgot-password {
+  width: auto;
+}
+
+.SignUp__buttons.MuiGrid-item {
+  margin-top: 2rem;
+}
+
+.SignUp__Divider{
+  padding: 1rem;
+  margin: 0 4rem;
+  color: $greyColor1;
+  font-size: 0.825rem;
+}
+.SignUp__google-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: 600;
+}

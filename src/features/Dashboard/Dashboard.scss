@@ -1,0 +1,65 @@
+@import '../../theme/KidzCubicleTheme/Colors.scss';
+
+.Dashboard__layout{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+.Dashboard--container {
+    flex: 1;
+
+
+  }
+.footer {
+    flex-shrink: 0;
+  }
+
+  .Dashboard--content{
+    width: 100vw;
+  }
+  .Dashboard__second-section {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 22rem;
+    z-index: 99;
+
+    @media (max-width: 899px) {
+      top: 10rem !important;
+      flex-direction: column !important;
+      padding: 0.5rem;
+    }
+
+
+    @media (min-width: 900px) and (max-width: 1199px) {
+      top: 12rem !important;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1567px) {
+      top: 12rem !important;
+    }
+
+    @media (min-width: 1568px) and (max-width: 2068px) {
+      top: 16rem !important;
+    }
+  }
+
+  .Dashboard__second-card{
+    border-radius: 0.5rem;
+    background: $appBackgroundColor;
+    box-shadow: 0px 1px 4px 0px #00000029;
+    margin: 0 3rem;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column !important;
+    @media (max-width: 768px) {
+      margin: 0rem !important;
+      padding: 2rem;
+      margin: 0 2rem !important;
+    }
+  }
+
+  .Dashboard__tabs{
+    margin-top: 10rem;
+  }

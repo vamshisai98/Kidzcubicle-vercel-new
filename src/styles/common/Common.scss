@@ -1,0 +1,12 @@
+@import "../../theme/KidzCubicleTheme/Colors.scss";
+
+.Common__Login-btn {
+    border-radius: 2rem !important;
+    box-shadow: none !important;
+    text-transform: capitalize !important;
+  }
+.Common__error-message {
+  color: $redColor;
+  font-size: 0.825rem;
+  margin: 0.2rem 0;
+}

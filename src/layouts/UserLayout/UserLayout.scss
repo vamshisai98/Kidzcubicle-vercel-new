@@ -1,0 +1,15 @@
+@import "../../theme/KidzCubicleTheme/Colors.scss";
+
+.UserLayout {
+  display: flex;
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+}
+
+.UserLayout--outlet {
+  width: 100%;
+  flex-grow: 1;
+  padding: 0rem 2rem;
+  background-color: $appBackgroundColor;
+}

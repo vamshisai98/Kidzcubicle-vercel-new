@@ -1,0 +1,12 @@
+.Footer--container {
+    border-top: 1px solid #B1B1B1;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    color: #4B3E3D;
+    margin-top: 0.5rem;
+
+    @media (max-width: 768px) { // Adjust the breakpoint as needed
+        padding: 0.25rem;
+        font-size: 0.7rem;
+    }
+}
